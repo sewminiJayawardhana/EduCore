@@ -13,6 +13,7 @@ const About = () => {
         <div className="about-right">
             <h3>About University</h3>
             <h2>Nurturing Tomorrow's Leaders Today</h2>
+            <p>At our university, we believe in empowering students through quality education and supportive learning environments. We aim to inspire curiosity, creativity, and leadership by providing the resources and guidance students need to achieve their goals</p>
         </div>
       
     </div>
