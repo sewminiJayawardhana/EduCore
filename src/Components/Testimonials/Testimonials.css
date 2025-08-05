@@ -13,4 +13,9 @@ position: relative;
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
+    background:#AF0171 ;
+}
+.back-btn{
+    right:auto;
+    left: 0;
 }
