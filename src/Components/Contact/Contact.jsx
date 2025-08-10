@@ -1,7 +1,9 @@
 import React from 'react'
 import'./Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
-
+import mail_icon from '../../assets/mail-icon.png'
+import phone_icon from '../../assets/phone-icon.png'
+import location_icon from '../../assets/location-icon.png'
 const Contact = () => {
   return (
     <div className='contact'>
@@ -11,9 +13,9 @@ const Contact = () => {
                We’d love to hear from you! Whether you have a question, suggestion, or need support, feel free to reach out using the form below. We're here to help and always ready to connect with our university community. 
             </p>
             <ul>
-                <li>educore@gmail.com</li>
-                <li>+94 772 056 235</li>
-                <li>Kandy Road, Kaduwela,Sri Lanka</li>
+                <li><img src={mail_icon} alt="" />educore@gmail.com</li>
+                <li><img src={phone_icon} alt="" />+94 772 056 235</li>
+                <li><img src={location_icon} alt="" />Kandy Road, Kaduwela,Sri Lanka</li>
             </ul>
         </div>
       
