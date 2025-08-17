@@ -55,3 +55,14 @@ position: relative;
 .user-info h3{
     color:#AF0171;
 }
+
+/* media query */
+@media (max-width:800px){
+    .testimonials{
+        padding: 0 40px;
+    }
+    .next-btn , .back-btn{
+        width: 35px;
+        padding: 10px;
+    }
+}
