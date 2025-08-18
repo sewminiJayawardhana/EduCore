@@ -65,4 +65,27 @@ position: relative;
         width: 35px;
         padding: 10px;
     }
+    .testimonials ul li{
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+    .slide img{
+        width: 50px;
+        border: 3px solid #790252;
+    }
+}
+@media (max-width:600px){
+    .user-info{
+        display: block;
+        margin-bottom:10px;
+        font-size: 12px;
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
+    }
 }
